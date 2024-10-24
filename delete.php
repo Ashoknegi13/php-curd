@@ -12,6 +12,6 @@ $result = mysqli_query($conn,$sql) or die("Query failed");
 if($result){
 	header("location: display.php");
 }else{
-	echo "Data can not delete";
+	echo "Data can't deleted";
 }
 ?>
